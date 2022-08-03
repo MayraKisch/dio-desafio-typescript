@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width:100%;
+  display: block;
+  background-color:#090909;
+}
+main {
+background-color:#0d1213;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+header{
+  margin-top:1.5em;
+  margin-bottom:0.5em;
+  text-align:center;
+}
+h1 {
+  font-size:3em;
+}
+
+h1, h2 , h4{
+  
+  color:#f17e7d;
+  height: 1.5em;
+  padding:0.8em;
+}
+.sub-titulo {
+  font-size: 1.8em;
+  color:#7dccf1;
+}
+
+.conteainer {
+  display:flex;
+  flex-direction:column;
+}
+
+h2 {
+  text-align:center;
+  font-size: 2.5em;
+}
+
+.meu-codigo {
+  background-color: #090909;
+  max-width:50%;
+  display:flex;
+  align-items:center;
+  color:#efcb6f;
+  padding: 0.8em;
+  text-align: left;
+  margin:auto;
+  overflow: hidden;
+  border-radius:15px;
+}
+.terceiro-desafio {
+  max-width:50%;
+  text-align: left;
+  margin:auto;
+  padding-bottom: 20px;  
+  align-items:center;
+  text-align:center
+}
+.input-valores {
+  align-items:center;
+  margin:auto;
+  max-width:50%;
+  text-align: center;
+}
+
+button {
+  background-color: #efcb6f;
+  border-color: #efcb6f;
+  border-radius:15px;
+  padding: 1.3em;
+  margin: 10px;
+}
+button:hover{
+  font-size:0.9em;
+}
+
+#campo-saldo{
+  border-bottom: 2px solid #090909;
+  color:#7dccf1;
+  align-items:center;
+  margin:auto;
+}
+

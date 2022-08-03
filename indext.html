@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Desafios TypeScript</title>
+    <script src="./dist/deafio-3.js" defer></script>
+  </head>
+  <body>
+    <header id="titulo">
+      <h1 class="titulo">Desafio TypeScript - DIO</h1>
+      <p class="sub-titulo">Resolvendo os desafio</p>
+    </header>
+    <main>
+      <div class="container">
+        <h2>Primeiro Desafio</h2>
+        <div class="meu-codigo">
+          <pre><code>let employee = {
+          code: 10,
+          name: "John",
+        };
+        
+        interface Employee {
+          code: number,
+          name: string,
+        }
+        
+        let employee2: Employee = {
+          code: 13,
+          name: "Sabrina"
+        }
+        
+        let employee3: (code: number, name: string) => {
+          code: 15,
+          name: "Maria",
+        }</code></pre>
+        </div>
+      </div>
+      <div class="container">
+        <h2>Segundo Desafio</h2>
+
+        <div class="meu-codigo">
+          <pre><code>
+            enum Trabalho {
+              Atriz,
+              Padeiro
+            }
+            interface Pessoa {
+              nome: string,
+              idade: number,
+              profissao: Trabalho
+            }
+            
+            
+            let pessoa1: Pessoa = {
+              nome: "Maria",
+              idade: 29,
+              profissao: Trabalho.Atriz
+            }
+            
+            let pessoa2: Pessoa = {
+              nome: "Roberto",
+              idade: 19,
+              profissao:Trabalho.Padeiro
+            
+            }
+            
+            let pessoa3: Pessoa = {
+                nome: "laura",
+                idade: 32,
+                profissao:Trabalho.Atriz
+            };
+            
+            let pessoa4: Pessoa = {
+                nome: "carlos",
+                idade: 19,
+                profissao:Trabalho.Padeiro
+            }</code></pre>
+        </div>
+      </div>
+      <div class="container">
+        <h2>Terceiro Desafio</h2>
+        <div class="input-valores">
+          <h4>Valor a ser adicionado: <input id="soma" /></h4>
+          <button id="atualizar-saldo">Atualizar saldo</button>
+          <button id="limpar-saldo">Limpar seu saldo</button>
+        </div>
+        <h2>Seu saldo é: <span id="campo-saldo"></span></h2>
+      </div>
+    </main>
+    <footer>Curso TypeScript - DIO</footer>
+  </body>
+</html>
